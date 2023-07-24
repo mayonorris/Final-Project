@@ -1,9 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2023-07-24T14:29:27.980Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.6.5" etag="9TySz33BCN1053X6K-9M" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-24T15:41:50.000Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="FMWfM46EO6EyFmo71X4M" version="21.6.5" type="github">
   <diagram name="Page-1" id="U9sie8021qQXbP51csVM">
-    <mxGraphModel>
+    <mxGraphModel dx="794" dy="1678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="IRmns1B_j3nlEJjdCm8q-1" value="Start&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=47;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-1120" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IRmns1B_j3nlEJjdCm8q-2" value="Sum_square(int A, int B);&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="-1145" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IRmns1B_j3nlEJjdCm8q-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="IRmns1B_j3nlEJjdCm8q-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="379.5" y="-1070" as="sourcePoint" />
+            <mxPoint x="380" y="-1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRmns1B_j3nlEJjdCm8q-5" value="Inputs: int A; int B" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IRmns1B_j3nlEJjdCm8q-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="379.5" y="-970" as="sourcePoint" />
+            <mxPoint x="380" y="-930" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="-950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRmns1B_j3nlEJjdCm8q-8" value="Compute:&amp;nbsp;&lt;br&gt;A_square=A*A&lt;br&gt;B_square=B*B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IRmns1B_j3nlEJjdCm8q-9" value="Sum A_square and B_square&amp;nbsp;&lt;br&gt;S=A_square + B_square&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IRmns1B_j3nlEJjdCm8q-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="379.5" y="-870" as="sourcePoint" />
+            <mxPoint x="380" y="-830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="-850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRmns1B_j3nlEJjdCm8q-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="-800.5" as="sourcePoint" />
+            <mxPoint x="510" y="-800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRmns1B_j3nlEJjdCm8q-14" value="Return the sum S" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="510" y="-830" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
